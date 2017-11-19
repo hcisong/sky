@@ -5,6 +5,11 @@ body {
 
 .solgan {
   text-align: center; }
+  .solgan img {
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto; }
   .solgan a {
     display: inline-block;
     color: #fff;
@@ -109,12 +114,22 @@ h1 {
       float: left;
       width: 58.3333333333%; } }
 
+.row-left-2 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    .row-left-2 {
+      float: left;
+      width: 83.3333333333%; } }
+
 .row-right {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  height: 100vh;
+  height: 200vh;
   background: rgba(255, 255, 255, 0.1);
   padding: 15px;
   position: absolute;
@@ -143,8 +158,8 @@ h3 {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  height: 200px;
-  margin-bottom: 50px; }
+  height: 250px;
+  margin-bottom: 70px; }
   @media (min-width: 992px) {
     .my_catalog {
       float: left;
@@ -158,10 +173,8 @@ h3 {
     font-size: 18px; }
   .my_catalog .my_catalog_logo {
     display: block;
-    float: left; }
+    width: 80%; }
   .my_catalog ul {
-    display: block;
-    float: left;
     list-style-type: none;
     padding: 10px 0 0 0; }
     .my_catalog ul li {
@@ -205,6 +218,34 @@ h3 {
     .chat_item .chat_content a {
       display: block; }
 
+.reco {
+  border-top: 1px solid #757674; }
+
+.reco_item {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px auto; }
+  @media (min-width: 992px) {
+    .reco_item {
+      float: left;
+      width: 25%; } }
+  .reco_item img {
+    width: 100%; }
+
+h2.watched {
+  display: block;
+  margin-top: 30px; }
+
+.watched_item {
+  text-align: center;
+  margin: 20px; }
+  .watched_item img {
+    margin: 0 auto; }
+  .watched_item p {
+    color: #fff; }
+
 .navbar-brand {
   padding: 10px; }
 
@@ -215,7 +256,7 @@ h3 {
   top: -50px; }
 
 body {
-  background: transparent url("/assets/header-bg-30daf47aede20636ec171318d941636d.jpg") left top no-repeat; }
+  background: transparent url("/assets/header-bg-30daf47aede20636ec171318d941636d.jpg") left top; }
 
 .homepage, .vr, .streaming {
   padding-top: 100px;
