@@ -80,6 +80,13 @@ h1 {
       list-style-type: none; }
   .streaming_content .plus_button {
     width: 20px; }
+  .streaming_content .link_button {
+    display: block;
+    width: 50px;
+    margin-top: 8px;
+    margin-left: 180px; }
+    .streaming_content .link_button .link_button_img {
+      width: 100%; }
 
 .title h1 {
   margin-bottom: 35px; }
@@ -122,17 +129,30 @@ h1 {
     font-size: 25px;
     color: #fff;
     margin-top: 5px; }
+  .row-right a {
+    color: #ababab; }
+
+h3 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 5px; }
 
 .my_catalog {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  height: 200px; }
+  height: 200px;
+  margin-bottom: 50px; }
   @media (min-width: 992px) {
     .my_catalog {
       float: left;
       width: 50%; } }
+  .my_catalog.add_new img {
+    opacity: 0.5;
+    width: 150px;
+    margin: 5px 0; }
   .my_catalog p {
     color: #fff;
     font-size: 18px; }
@@ -143,14 +163,18 @@ h1 {
     display: block;
     float: left;
     list-style-type: none;
-    padding: 0 0 0 20px; }
+    padding: 10px 0 0 0; }
     .my_catalog ul li {
       color: #fff; }
       .my_catalog ul li img {
         width: 20px; }
+      .my_catalog ul li a {
+        display: block;
+        color: #fff;
+        margin-top: 5px; }
 
 .my_catalog_logo {
-  width: 100px; }
+  width: 200px; }
 
 .chat_item {
   display: block;
